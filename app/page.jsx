@@ -6,7 +6,6 @@ import GoogleReviews from '../components/GoogleReviews';
 import FaqSection from '../components/FaqSection';
 import { Phone, MapPin, CheckCircle, ShieldCheck, Scale, Banknote, HelpCircle, ArrowRight, Award, Recycle, Truck, Zap, FileText, Check, AlertTriangle, Leaf, Star, ExternalLink, Globe } from 'lucide-react';
 import { localities } from '../data/localities';
-import { cities } from '../data/cities';
 
 const scrapTypesList = [
   { title: "Old Newspaper Raddi", rate: "₹18 - ₹22 / kg", image: "/card_newspaper_raddi.webp", desc: "Newspapers, books, magazines, cardboard boxes, office paper & notebooks." },
@@ -17,6 +16,17 @@ const scrapTypesList = [
   { title: "Iron & Steel Scrap", rate: "₹28 - ₹38 / kg", image: "/card_iron_steel.webp", desc: "Heavy iron rods, grills, metal furniture, structural steel & pipes." },
   { title: "E-Waste & Electronics", rate: "₹40 - ₹450 / pc", image: "/card_ewaste_electronics.webp", desc: "Old laptops, dead PCs, CPUs, motherboards, TVs, printers & monitors." },
   { title: "Home Appliances", rate: "₹800 - ₹3,500 / pc", image: "/card_home_appliances.webp", desc: "Old ACs, refrigerators, washing machines, geysers & microwave ovens." },
+];
+
+const secondHandItemsList = [
+  { title: "Second-Hand AC", rate: "₹1,500 - ₹8,000 / unit", icon: "❄️", desc: "Old split ACs, window ACs, tower & cassette ACs — working or non-working condition. Top cash for all brands." },
+  { title: "Second-Hand Refrigerator", rate: "₹1,000 - ₹6,000 / unit", icon: "🧊", desc: "Single door, double door, side-by-side & mini fridges (Samsung, LG, Whirlpool, Godrej & more)." },
+  { title: "Second-Hand Microwave", rate: "₹300 - ₹2,500 / unit", icon: "🍳", desc: "Solo, grill & convection microwave ovens, OTGs and electric tandoors at fair market prices." },
+  { title: "Second-Hand Air Cooler", rate: "₹500 - ₹3,000 / unit", icon: "🌀", desc: "Desert coolers, personal coolers, room coolers & heavy industrial air coolers in any condition." },
+  { title: "Washing Machine", rate: "₹800 - ₹4,000 / unit", icon: "🫧", desc: "Top-load, front-load, semi-automatic & fully automatic washing machines purchased at your doorstep." },
+  { title: "TV & Home Electronics", rate: "₹200 - ₹5,000 / unit", icon: "📺", desc: "LED/LCD smart TVs, old CRT TVs, home theatres, music systems, set-top boxes and electronics." },
+  { title: "Motor Vehicle Scrap", rate: "₹2,000 - ₹25,000+", icon: "🏍️", desc: "Old scooters, bikes, auto-rickshaws, scrap cars and commercial vehicles with fast doorstep inspection." },
+  { title: "Other Home Appliances", rate: "₹100 - ₹3,000 / unit", icon: "🔌", desc: "Geysers, RO water purifiers, ceiling fans, exhaust fans, mixer grinders, inverters & stabilizers." },
 ];
 
 const externalCitations = [
@@ -234,6 +244,52 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SECOND-HAND APPLIANCE & VEHICLE BUYING SECTION */}
+      <section className="py-16 bg-[#0a1c0d] border-t border-[#22c55e]/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="text-xs font-bold text-[#ff6b35] uppercase tracking-wider block mb-2">
+              🔥 Second-Hand Appliance & Vehicle Purchase
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-['Plus_Jakarta_Sans']">
+              We Buy <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff6b35] to-[#fbbf24]">Second-Hand Appliances & Vehicles</span> in Jaipur
+            </h2>
+            <p className="text-sm text-gray-300 mt-2 font-normal">
+              Get the best price for your used electronics, working/non-working ACs, refrigerators, motor vehicles, washing machines & coolers with instant cash payment.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {secondHandItemsList.map((item, i) => (
+              <div
+                key={i}
+                className="bg-[#142e18] rounded-2xl border border-[#ff6b35]/40 hover:border-[#ff6b35] overflow-hidden transition-all space-y-3 shadow-lg group flex flex-col justify-between p-5"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="w-12 h-12 rounded-xl bg-[#ff6b35]/15 border border-[#ff6b35]/30 flex items-center justify-center text-2xl">
+                      {item.icon}
+                    </div>
+                    <span className="px-3 py-1 rounded-full bg-[#ff6b35]/15 border border-[#ff6b35]/40 text-[#ff6b35] font-bold text-xs">
+                      {item.rate}
+                    </span>
+                  </div>
+                  <h3 className="text-lg font-bold text-white font-['Plus_Jakarta_Sans'] group-hover:text-[#ff6b35] transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-xs text-gray-300 leading-relaxed mt-1">{item.desc}</p>
+                </div>
+
+                <div className="pt-3 border-t border-[#ff6b35]/20 flex items-center justify-between text-xs font-semibold text-[#ff6b35]">
+                  <span>Sell Now For Instant Cash</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* INDICATIVE SCRAP RATES SECTION */}
       <section id="rates" className="py-16 bg-[#0f2612]/50 border-y border-[#22c55e]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -269,7 +325,7 @@ export default function Home() {
           </div>
 
           {/* 28 Jaipur Locality Cards */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 mb-12">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
             {localities.map((loc) => (
               <Link
                 key={loc.slug}
@@ -280,30 +336,6 @@ export default function Home() {
                   {loc.name}
                 </span>
                 <span className="text-[10px] text-gray-400 block mt-0.5">Scrap Pickup</span>
-              </Link>
-            ))}
-          </div>
-
-          {/* Major Industrial Cities in Rajasthan */}
-          <div className="text-center max-w-2xl mx-auto mb-6">
-            <h3 className="text-xl font-bold text-white font-['Plus_Jakarta_Sans']">
-              Commercial & Industrial Scrap Service across <span className="text-[#22c55e]">Rajasthan</span>
-            </h3>
-            <p className="text-xs text-gray-400 mt-1">
-              Bulk commercial & factory scrap pickup in major industrial cities.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2.5">
-            {cities.map((c) => (
-              <Link
-                key={c.slug}
-                href={`/${c.slug}`}
-                className="p-2.5 rounded-xl bg-[#102413] border border-gray-800 hover:border-[#22c55e] text-center transition-all group"
-              >
-                <span className="text-xs font-semibold text-gray-300 group-hover:text-[#22c55e] block truncate">
-                  {c.name}
-                </span>
               </Link>
             ))}
           </div>

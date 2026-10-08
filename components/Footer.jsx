@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, Mail, MapPin, Recycle, Leaf, ExternalLink, ShieldCheck, Building2, Star } from 'lucide-react';
 import { localities } from '../data/localities';
-import { cities } from '../data/cities';
 
 export default function Footer() {
   const environmentalResources = [

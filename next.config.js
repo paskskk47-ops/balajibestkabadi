@@ -8,6 +8,18 @@ const nextConfig = {
   },
   trailingSlash: false,
   async redirects() {
+    // Removed city slugs → redirect to homepage
+    const removedCities = [
+      'jodhpur','udaipur','kota','ajmer','bikaner','alwar','bhilwara',
+      'sikar','bharatpur','ganganagar','hanumangarh','chittorgarh',
+      'jaisalmer','jhunjhunu','pali','tonk'
+    ];
+    const cityRedirects = removedCities.map((city) => ({
+      source: `/${city}`,
+      destination: '/',
+      permanent: true,
+    }));
+
     return [
       // Redirect all .html URLs to clean URLs (301 permanent)
       {
@@ -15,6 +27,7 @@ const nextConfig = {
         destination: '/:path*',
         permanent: true,
       },
+      ...cityRedirects,
     ];
   },
 };

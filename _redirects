@@ -1,2 +1,36 @@
 # Redirect Netlify default subdomain to the custom main domain
 https://balajibestkabadiwala.netlify.app/* https://balajibestkabadiwala.in/:splat 301!
+
+# Redirect removed cities to homepage
+/jodhpur / 301
+/jodhpur.html / 301
+/udaipur / 301
+/udaipur.html / 301
+/kota / 301
+/kota.html / 301
+/ajmer / 301
+/ajmer.html / 301
+/bikaner / 301
+/bikaner.html / 301
+/alwar / 301
+/alwar.html / 301
+/bhilwara / 301
+/bhilwara.html / 301
+/sikar / 301
+/sikar.html / 301
+/bharatpur / 301
+/bharatpur.html / 301
+/ganganagar / 301
+/ganganagar.html / 301
+/hanumangarh / 301
+/hanumangarh.html / 301
+/chittorgarh / 301
+/chittorgarh.html / 301
+/jaisalmer / 301
+/jaisalmer.html / 301
+/jhunjhunu / 301
+/jhunjhunu.html / 301
+/pali / 301
+/pali.html / 301
+/tonk / 301
+/tonk.html / 301

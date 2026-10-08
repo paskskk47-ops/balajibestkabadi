@@ -1,5 +1,4 @@
 import { localities } from '../data/localities';
-import { cities } from '../data/cities';
 import { blogs } from '../data/blogs';
 
 export default async function sitemap() {
@@ -35,14 +34,6 @@ export default async function sitemap() {
     priority: 0.8,
   }));
 
-  // Rajasthan Cities (Regional industrial service targets)
-  const cityPages = cities.map((city) => ({
-    url: `${baseUrl}/${city.slug}`,
-    lastModified: '2026-08-09',
-    changeFrequency: 'monthly',
-    priority: 0.7,
-  }));
-
   // Educational Blog Guides
   const blogPages = blogs.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
@@ -51,5 +42,5 @@ export default async function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...localityPages, ...cityPages, ...blogPages];
+  return [...staticPages, ...localityPages, ...blogPages];
 }
