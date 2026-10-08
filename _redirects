@@ -1,0 +1,2 @@
+# Redirect Netlify default subdomain to the custom main domain
+https://balajibestkabadiwala.netlify.app/* https://balajibestkabadiwala.in/:splat 301!

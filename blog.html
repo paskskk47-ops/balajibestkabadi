@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrap & Recycling Tips Blog | Balaji Kabadi Wala Jaipur</title>
+  <meta name="description" content="Stay updated with today's scrap rates, recycling guides, e-waste tips, and insider knowledge from Jaipur's most trusted kabadiwala.">
+  <link rel="canonical" href="https://balajibestkabadiwala.in/blog.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {{ margin: 0; padding: 0; box-sizing: border-box; }}
+    :root {{
+      --bg-color: #0d1f0f;
+      --primary: #25b05a;
+      --accent: #f5c842;
+      --text-white: #e8f5e9;
+      --text-muted: #a3b8a5;
+      --glass-bg: rgba(255,255,255,0.04);
+      --font-heading: 'Bebas Neue', sans-serif;
+      --font-body: 'Space Grotesk', sans-serif;
+      --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      --nav-height: 90px;
+    }}
+    html, body {{
+      scroll-behavior: smooth;
+      background-color: var(--bg-color);
+      color: var(--text-white);
+      font-family: var(--font-body);
+      line-height: 1.7;
+      overflow-x: hidden;
+      width: 100%;
+      max-width: 100%;
+    }}
+    .container {{ max-width: 1200px; margin: 0 auto; padding: 0 24px; }}
+    a {{ text-decoration: none; color: inherit; }}
+
+    /* ----------------------------------------------------
+       3. NAVIGATION BAR
+       ---------------------------------------------------- */
+    .navbar {{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--nav-height);
+      background: rgba(13, 31, 15, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(37, 176, 90, 0.15);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      transition: var(--transition);
+    }}
+
+    .navbar-container {{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }}
+
+    .navbar-logo {{
+      font-size: 1.5rem;
+      color: var(--accent);
+      text-shadow: 0 0 8px rgba(245, 200, 66, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      font-family: var(--font-heading);
+      letter-spacing: 1px;
+    }}
+
+    .navbar-logo span {{
+      color: var(--primary);
+    }}
+
+    .navbar-menu {{
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      align-items: center;
+    }}
+
+    .navbar-link {{
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 0.88rem;
+      letter-spacing: 0.3px;
+      color: var(--text-white);
+      position: relative;
+      padding: 8px 0;
+      white-space: nowrap;
+    }}
+
+    .navbar-link::after {{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--primary);
+      transition: var(--transition);
+    }}
+
+    .navbar-link:hover {{
+      color: var(--primary);
+    }}
+
+    .navbar-link:hover::after {{
+      width: 100%;
+    }}
+
+    .btn {{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 12px 28px;
+      border-radius: 50px;
+      transition: var(--transition);
+      cursor: pointer;
+      text-align: center;
+    }}
+
+    .btn-primary {{
+      background-color: var(--primary);
+      color: #0d1f0f !important;
+      border: 1px solid var(--primary);
+      box-shadow: 0 4px 15px rgba(37, 176, 90, 0.25);
+    }}
+
+    .btn-primary:hover {{
+      background-color: transparent;
+      color: var(--primary) !important;
+      box-shadow: none;
+    }}
+
+    /* Burger Menu Icon */
+    .burger {{
+      display: none;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      outline: none;
+      z-index: 1001;
+    }}
+
+    .burger div {{
+      width: 25px;
+      height: 2px;
+      background-color: var(--text-white);
+      margin: 6px 0;
+      transition: var(--transition);
+    }}
+
+    /* Mobile Menu Active State */
+    .burger.open .line1 {{
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }}
+    .burger.open .line2 {{
+      opacity: 0;
+    }}
+    .burger.open .line3 {{
+      transform: rotate(45deg) translate(-5px, -6px);
+    }}
+
+    /* Hero */
+    .blog-hero {{ padding: 140px 0 70px; text-align: center; background: radial-gradient(ellipse at top, #142a17 0%, var(--bg-color) 70%); }}
+    .blog-hero-tag {{ display: inline-block; background: rgba(37,176,90,0.12); border: 1px solid rgba(37,176,90,0.3); color: var(--primary); padding: 6px 18px; border-radius: 50px; font-size: 0.85rem; font-weight: 600; margin-bottom: 20px; }}
+    .blog-hero-title {{ font-family: var(--font-heading); font-size: 4.5rem; line-height: 1.05; margin-bottom: 20px; }}
+    .blog-hero-title span {{ color: var(--accent); }}
+    .blog-hero-sub {{ color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }}
+
+    /* Blog Grid */
+    .blog-section {{ padding: 70px 0 100px; }}
+    .blog-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 50px; }}
+    .blog-card {{ background: var(--glass-bg); border: 1px solid rgba(37,176,90,0.15); border-radius: 16px; overflow: hidden; transition: var(--transition); display: flex; flex-direction: column; }}
+    .blog-card:hover {{ transform: translateY(-8px); border-color: rgba(37,176,90,0.4); box-shadow: 0 20px 50px rgba(0,0,0,0.4); }}
+    .blog-card-img {{ width: 100%; height: 220px; object-fit: cover; display: block; transition: var(--transition); }}
+    .blog-card:hover .blog-card-img {{ transform: scale(1.04); }}
+    .blog-card-img-wrap {{ overflow: hidden; }}
+    .blog-card-body {{ padding: 28px; flex: 1; display: flex; flex-direction: column; }}
+    .blog-tag {{ display: inline-block; background: rgba(37,176,90,0.12); color: var(--primary); font-size: 0.75rem; font-weight: 700; padding: 4px 12px; border-radius: 50px; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 1px; }}
+    .blog-card-title {{ font-family: var(--font-heading); font-size: 1.7rem; line-height: 1.2; margin-bottom: 12px; color: var(--text-white); }}
+    .blog-card-excerpt {{ color: var(--text-muted); font-size: 0.9rem; line-height: 1.65; flex: 1; margin-bottom: 20px; }}
+    .blog-card-footer {{ display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(37,176,90,0.1); padding-top: 16px; }}
+    .blog-date {{ font-size: 0.8rem; color: var(--text-muted); }}
+    .read-more {{ color: var(--primary); font-size: 0.88rem; font-weight: 700; display: flex; align-items: center; gap: 6px; transition: var(--transition); }}
+    .read-more:hover {{ color: var(--accent); gap: 10px; }}
+
+    /* Featured Card */
+    .blog-card.featured {{ grid-column: 1 / -1; flex-direction: row; }}
+    .blog-card.featured .blog-card-img-wrap {{ width: 45%; flex-shrink: 0; }}
+    .blog-card.featured .blog-card-img {{ height: 100%; min-height: 280px; }}
+    .blog-card.featured .blog-card-title {{ font-size: 2.4rem; }}
+    .blog-card.featured .blog-card-excerpt {{ font-size: 1rem; }}
+
+    /* Footer */
+    .footer {{ background: #080f09; border-top: 1px solid rgba(37,176,90,0.12); padding: 40px 0; text-align: center; }}
+    .footer-text {{ color: var(--text-muted); font-size: 0.88rem; }}
+    .footer-logo {{ font-family: var(--font-heading); font-size: 1.4rem; color: var(--primary); margin-bottom: 10px; display: block; }}
+    .footer-logo span {{ color: var(--accent); }}
+
+    @media (max-width: 1024px) {{
+      .blog-grid {{ grid-template-columns: 1fr 1fr; }}
+      .blog-card.featured {{ flex-direction: column; grid-column: 1 / -1; }}
+      .blog-card.featured .blog-card-img-wrap {{ width: 100%; }}
+      .blog-card.featured .blog-card-img {{ height: 280px; }}
+    }}
+
+    @media (max-width: 768px) {{
+      .blog-hero-title {{ font-size: 3rem; }}
+      .blog-grid {{ grid-template-columns: 1fr; }}
+      .burger {{
+        display: block;
+      }}
+      .navbar-menu {{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 75%;
+        max-width: 320px;
+        height: 100vh;
+        background-color: #061107;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        transition: right 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+        box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+        z-index: 1000;
+        border-left: 1px solid rgba(37, 176, 90, 0.15);
+      }}
+      .navbar-menu.active {{
+        right: 0;
+      }}
+      .navbar-menu .btn {{
+        margin-top: 10px;
+        width: 80%;
+      }}
+    }}
+  </style>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Balaji Kabadi Wala Blog",
+    "description": "Expert tips and guides on scrap recycling, kabadi rates, e-waste, and eco-friendly waste management in Jaipur.",
+    "url": "https://balajibestkabadiwala.in/blog.html",
+    "publisher": {{
+      "@type": "Organization",
+      "name": "Balaji Kabadi Wala",
+      "telephone": "+919509752549",
+      "address": {{ "@type": "PostalAddress", "addressLocality": "Jaipur", "addressRegion": "Rajasthan", "addressCountry": "IN" }}
+    }}
+  }}
+  </script>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="index.html#home" class="navbar-logo">
+        <img src="WhatsApp Image 2026-06-25 at 19.00.23.jpeg" alt="Balaji Kabadi Wala Logo" style="height: 55px; width: 55px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(255,255,255,0.15); margin-right: 5px;"> BALAJI <span>KABADI WALA</span>
+      </a>
+      
+      <ul class="navbar-menu" id="nav-menu">
+        <li><a href="index.html#home" class="navbar-link">Home</a></li>
+        <li><a href="about.html" class="navbar-link">About Us</a></li>
+        <li><a href="blog.html" class="navbar-link active" style="color:var(--primary)">Blog</a></li>
+        <li><a href="index.html#services" class="navbar-link">Services</a></li>
+        <li><a href="index.html#rates" class="navbar-link">Rates</a></li>
+        <li><a href="index.html#how-it-works" class="navbar-link">How It Works</a></li>
+        <li><a href="index.html#contact" class="navbar-link">Contact</a></li>
+        <li><a href="index.html#contact" class="btn btn-primary" onclick="closeMobileMenu()">Book Pickup</a></li>
+      </ul>
+
+      <button class="burger" id="burger" aria-label="Toggle Navigation Menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </button>
+    </div>
+  </nav>
+
+  <section class="blog-hero">
+    <div class="container">
+      <div class="blog-hero-tag">📰 Knowledge Hub</div>
+      <h1 class="blog-hero-title">Scrap & Recycling <span>Tips Blog</span></h1>
+      <p class="blog-hero-sub">Stay updated with today's scrap rates, recycling guides, e-waste tips, and insider knowledge from Jaipur's most trusted kabadiwala.</p>
+    </div>
+  </section>
+
+  <section class="blog-section">
+    <div class="container">
+      <div class="blog-grid">
+        
+        <!-- Blog: Lead-Acid Battery Scrap Price in Jaipur | Sell Old Car Battery for Cash -->
+        <a href="blog-battery-scrap-prices-jaipur.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="blog_battery_featured.png" alt="Lead-Acid Battery Scrap Price in Jaipur | Sell Old Car Battery for Cash" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">🔋 Battery</span>
+            <h2 class="blog-card-title">Lead-Acid Battery Scrap Price in Jaipur | Sell Old Car Battery for Cash</h2>
+            <p class="blog-card-excerpt">Broken car battery or inverter battery lying in your garage? Find out today's lead-acid battery scrap rates in Jaipur, safety handling tips, and how to get maximum cash.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 25, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: Unlocking Value from Copper & Brass: Household Scrap Identification Guide -->
+        <a href="blog-copper-brass-scrap-guide-jaipur.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="blog_copper_featured.png" alt="Unlocking Value from Copper & Brass: Household Scrap Identification Guide" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">🪙 Copper & Brass</span>
+            <h2 class="blog-card-title">Unlocking Value from Copper & Brass: Household Scrap Identification Guide</h2>
+            <p class="blog-card-excerpt">Copper and Brass are among the highest-paying scrap materials. Learn how to identify yellow brass, copper wiring grades, and get the maximum scrap rates today in Jaipur.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 23, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: Office De-cluttering & Commercial Scrap Guide for Businesses in Jaipur -->
+        <a href="blog-commercial-office-scrap-recycling-jaipur.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="blog_office_featured.png" alt="Office De-cluttering & Commercial Scrap Guide for Businesses in Jaipur" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">🏢 B2B Recycling</span>
+            <h2 class="blog-card-title">Office De-cluttering & Commercial Scrap Guide for Businesses in Jaipur</h2>
+            <p class="blog-card-excerpt">Is your office or warehouse cluttered with dead computers, obsolete files, and cardboard packaging? Learn how companies in Jaipur manage bulk scrap and secure e-waste disposal.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 21, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: Digital Weighing vs Manual Scales: Why Traditional Kabadiwalas Cheat You -->
+        <a href="blog-digital-weighing-vs-manual-scales-kabadiwala.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="blog_scale_featured.png" alt="Digital Weighing vs Manual Scales: Why Traditional Kabadiwalas Cheat You" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">⚖️ Trust & Scales</span>
+            <h2 class="blog-card-title">Digital Weighing vs Manual Scales: Why Traditional Kabadiwalas Cheat You</h2>
+            <p class="blog-card-excerpt">Do you trust traditional street scrap collectors? Learn the common weighing tricks (magnet weights, spring scales) and why certified digital scales protect your scrap's true value.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 19, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: Aluminium Scrap Recycling in Jaipur: Kitchen Utensils to Door & Window Sections -->
+        <a href="blog-aluminium-recycling-guide-jaipur.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="blog_aluminium_featured.png" alt="Aluminium Scrap Recycling in Jaipur: Kitchen Utensils to Door & Window Sections" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">🔋 Aluminium</span>
+            <h2 class="blog-card-title">Aluminium Scrap Recycling in Jaipur: Kitchen Utensils to Door & Window Sections</h2>
+            <p class="blog-card-excerpt">Aluminium is 100% recyclable! Learn about the scrap rates for old utensils, alloy wheels, and commercial window frames in Jaipur, and see how much cash you can earn today.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 17, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: Scrap Rate Today in Jaipur 2025 — Iron, Copper, Paper, Plastic Kabadi Rates -->
+        <a href="blog-scrap-rates-jaipur.html" class="blog-card featured">
+          <div class="blog-card-img-wrap">
+            <img src="blog_rates_featured.png" alt="Scrap Rate Today in Jaipur 2025 — Iron, Copper, Paper, Plastic Kabadi Rates" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">⭐ Featured · Rates</span>
+            <h2 class="blog-card-title">Scrap Rate Today in Jaipur 2025 — Iron, Copper, Paper, Plastic Kabadi Rates</h2>
+            <p class="blog-card-excerpt">Looking for today's kabadi rates in Jaipur? Get accurate, updated scrap prices for iron, copper, aluminium, newspaper, plastic and more. Know exactly how much your scrap is worth before calling any kabadi wala.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 19, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: Newspaper Raddi Price in Jaipur — Get Maximum Value for Old Papers -->
+        <a href="blog-raddi-newspaper-price-jaipur.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="2026-05-15 (2).jpg" alt="Newspaper Raddi Price in Jaipur — Get Maximum Value for Old Papers" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">📰 Newspaper</span>
+            <h2 class="blog-card-title">Newspaper Raddi Price in Jaipur — Get Maximum Value for Old Papers</h2>
+            <p class="blog-card-excerpt">Old newspapers piling up at home? Discover the current raddi paper prices in Jaipur, how rates are calculated, and how to get the best deal from a trusted kabadi wala near you.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 17, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: E-Waste Disposal in Jaipur — Safely Recycle Old Electronics & Get Paid -->
+        <a href="blog-ewaste-disposal-jaipur.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="blog_ewaste_jaipur.png" alt="E-Waste Disposal in Jaipur — Safely Recycle Old Electronics & Get Paid" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">💻 E-Waste</span>
+            <h2 class="blog-card-title">E-Waste Disposal in Jaipur — Safely Recycle Old Electronics & Get Paid</h2>
+            <p class="blog-card-excerpt">Broken phones, old laptops, dead batteries lying at home? Learn how to safely and legally dispose of e-waste in Jaipur and earn cash in the process with doorstep pickup.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 15, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: Kabadi Wala Near Me in Jaipur — Free Doorstep Scrap Pickup Same Day -->
+        <a href="blog-kabadi-wala-near-me-jaipur.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="blog_kabadi_near_me.png" alt="Kabadi Wala Near Me in Jaipur — Free Doorstep Scrap Pickup Same Day" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">📍 Local Service</span>
+            <h2 class="blog-card-title">Kabadi Wala Near Me in Jaipur — Free Doorstep Scrap Pickup Same Day</h2>
+            <p class="blog-card-excerpt">Searching for a reliable kabadi wala near you in Jaipur? Find out how to book a same-day, free doorstep scrap pickup service in Mansarovar, Vaishali Nagar, Amrapali Circle and 25+ areas.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 13, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+        <!-- Blog: 5 Powerful Benefits of Recycling Scrap from Your Home in Jaipur -->
+        <a href="blog-benefits-recycling-scrap-home.html" class="blog-card">
+          <div class="blog-card-img-wrap">
+            <img src="saurabh_kabadi_wala_about.png" alt="5 Powerful Benefits of Recycling Scrap from Your Home in Jaipur" class="blog-card-img">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-tag">🌱 Eco Tips</span>
+            <h2 class="blog-card-title">5 Powerful Benefits of Recycling Scrap from Your Home in Jaipur</h2>
+            <p class="blog-card-excerpt">Recycling is not just about the environment — it puts real cash in your pocket! Discover 5 powerful reasons why every Jaipur household should regularly call a kabadi wala for scrap pickup.</p>
+            <div class="blog-card-footer">
+              <span class="blog-date">📅 May 11, 2025</span>
+              <span class="read-more">Read Full Guide →</span>
+            </div>
+          </div>
+        </a>
+    
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center; gap: 10px; font-family: var(--font-body);">
+      <a href="index.html" class="footer-logo"><img src="WhatsApp Image 2026-06-25 at 19.00.23.jpeg" alt="Balaji Kabadi Wala Logo" style="height: 55px; width: 55px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(255,255,255,0.15); margin-right: 5px;"> BALAJI <span>KABADI WALA</span></a>
+      <p class="footer-text">Jaipur's Most Trusted Kabadiwala | Call: <a href="tel:+919509752549" style="color:var(--primary);">95097 52549</a> | © 2025 Balaji Kabadi Wala</p>
+      <p class="designer-link" style="font-size: 0.82rem; color: var(--text-muted);">Designed by <a href="https://orbyza.com/" target="_blank" style="color: var(--primary); text-decoration: underline;">Orbyza Digital Marketing Agency</a></p>
+    </div>
+  </footer>
+  <script>
+    const burger = document.getElementById('burger');
+    const navMenu = document.getElementById('nav-menu');
+
+    burger.addEventListener('click', () => {{
+      burger.classList.toggle('open');
+      navMenu.classList.toggle('active');
+    }});
+
+    function closeMobileMenu() {{
+      burger.classList.remove('open');
+      navMenu.classList.remove('active');
+    }}
+
+    document.addEventListener('click', (e) => {{
+      if (!burger.contains(e.target) && !navMenu.contains(e.target)) {{
+        closeMobileMenu();
+      }}
+    }});
+  </script>
+</body>
+</html>

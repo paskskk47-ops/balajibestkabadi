@@ -1,0 +1,445 @@
+[1mdiff --git a/sitemap.xml b/sitemap.xml[m
+[1mindex 0016532..6005988 100644[m
+[1m--- a/sitemap.xml[m
+[1m+++ b/sitemap.xml[m
+[36m@@ -6,7 +6,7 @@[m
+ [m
+   <!-- Homepage — Highest Priority -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>weekly</changefreq>[m
+     <priority>1.0</priority>[m
+[36m@@ -14,7 +14,7 @@[m
+ [m
+   <!-- About Page -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/about.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/about.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+[36m@@ -22,7 +22,7 @@[m
+ [m
+   <!-- Blog Index -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>weekly</changefreq>[m
+     <priority>0.8</priority>[m
+[36m@@ -30,7 +30,7 @@[m
+ [m
+   <!-- Blog Post 1: Scrap Rates Jaipur -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-scrap-rates-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-scrap-rates-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>weekly</changefreq>[m
+     <priority>0.9</priority>[m
+[36m@@ -38,7 +38,7 @@[m
+ [m
+   <!-- Blog Post 2: Raddi Newspaper Price -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-raddi-newspaper-price-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-raddi-newspaper-price-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.7</priority>[m
+[36m@@ -46,7 +46,7 @@[m
+ [m
+   <!-- Blog Post 3: E-Waste Disposal -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-ewaste-disposal-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-ewaste-disposal-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.7</priority>[m
+[36m@@ -54,7 +54,7 @@[m
+ [m
+   <!-- Blog Post 4: Kabadi Wala Near Me -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-kabadi-wala-near-me-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-kabadi-wala-near-me-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+[36m@@ -63,42 +63,42 @@[m
+ [m
+   <!-- Blog Post Extra: Lead-Acid Battery Scrap Price in Jaipur | Sell Old Car Battery for Cash -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-battery-scrap-prices-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-battery-scrap-prices-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.7</priority>[m
+   </url>[m
+   <!-- Blog Post Extra: Unlocking Value from Copper & Brass: Household Scrap Identification Guide -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-copper-brass-scrap-guide-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-copper-brass-scrap-guide-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.7</priority>[m
+   </url>[m
+   <!-- Blog Post Extra: Office De-cluttering & Commercial Scrap Guide for Businesses in Jaipur -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-commercial-office-scrap-recycling-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-commercial-office-scrap-recycling-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.7</priority>[m
+   </url>[m
+   <!-- Blog Post Extra: Digital Weighing vs Manual Scales: Why Traditional Kabadiwalas Cheat You -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-digital-weighing-vs-manual-scales-kabadiwala.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-digital-weighing-vs-manual-scales-kabadiwala.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.7</priority>[m
+   </url>[m
+   <!-- Blog Post Extra: Aluminium Scrap Recycling in Jaipur: Kitchen Utensils to Door & Window Sections -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-aluminium-recycling-guide-jaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-aluminium-recycling-guide-jaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.7</priority>[m
+   </url>[m
+   <!-- Blog Post 5: Benefits of Recycling -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/blog-benefits-recycling-scrap-home.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/blog-benefits-recycling-scrap-home.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.6</priority>[m
+[36m@@ -106,287 +106,287 @@[m
+ [m
+   <!-- Jaipur Local Area: Mansarovar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/mansarovar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/mansarovar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Vaishali Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/vaishali-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/vaishali-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Amrapali Circle -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/amrapali-circle.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/amrapali-circle.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Malviya Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/malviya-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/malviya-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Pratap Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/pratap-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/pratap-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Sanganer -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/sanganer.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/sanganer.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Raja Park -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/raja-park.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/raja-park.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Jagatpura -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/jagatpura.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/jagatpura.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Vidhyadhar Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/vidhyadhar-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/vidhyadhar-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Tonk Road -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/tonk-road.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/tonk-road.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Gopalpura -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/gopalpura.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/gopalpura.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Durgapura -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/durgapura.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/durgapura.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Adarsh Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/adarsh-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/adarsh-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Nirman Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/nirman-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/nirman-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: C Scheme -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/c-scheme.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/c-scheme.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Mi Road -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/mi-road.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/mi-road.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Bani Park -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/bani-park.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/bani-park.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Jhotwara -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/jhotwara.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/jhotwara.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Sitapura -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/sitapura.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/sitapura.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Bapu Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/bapu-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/bapu-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Sodala -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/sodala.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/sodala.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Civil Lines -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/civil-lines.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/civil-lines.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Murlipura -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/murlipura.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/murlipura.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Shastri Nagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/shastri-nagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/shastri-nagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Jaipur Local Area: Chitrakoot -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/chitrakoot.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/chitrakoot.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.8</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Jodhpur -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/jodhpur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/jodhpur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Udaipur -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/udaipur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/udaipur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Kota -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/kota.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/kota.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Ajmer -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/ajmer.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/ajmer.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Bikaner -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/bikaner.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/bikaner.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Alwar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/alwar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/alwar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Sikar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/sikar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/sikar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Bhilwara -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/bhilwara.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/bhilwara.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Sri Ganganagar -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/ganganagar.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/ganganagar.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Bharatpur -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/bharatpur.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/bharatpur.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Pali -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/pali.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/pali.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Chittorgarh -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/chittorgarh.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/chittorgarh.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Jaisalmer -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/jaisalmer.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/jaisalmer.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Tonk -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/tonk.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/tonk.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Jhunjhunu -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/jhunjhunu.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/jhunjhunu.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
+   </url>[m
+   <!-- Rajasthan City: Hanumangarh -->[m
+   <url>[m
+[31m-    <loc>https://saurabhkabadiwala.netlify.app/hanumangarh.html</loc>[m
+[32m+[m[32m    <loc>https://balajibestkabadiwala.in/hanumangarh.html</loc>[m
+     <lastmod>2026-07-08</lastmod>[m
+     <changefreq>monthly</changefreq>[m
+     <priority>0.85</priority>[m
